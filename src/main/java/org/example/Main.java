@@ -1,5 +1,12 @@
-package org.example;public class Main {
+package org.example;
+
+public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        ToyFactory tf = new ToyFactory();
+        tf.createToyTrain(10);
+        tf.createTeddyBear(10);
+        tf.createXBox(10);
+
+        System.out.println(tf.getToysList());
     }
 }
