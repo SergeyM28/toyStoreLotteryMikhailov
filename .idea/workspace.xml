@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7ca2e9d-e302-4bf3-90fc-c6e3e0a13360" name="Changes" comment="Добавлен функционал розыгрыша игрушек: выбор n лучайных объектов той и вывод их в отдельный список">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/PrizeToyBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ToyProtocolist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ToyTaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/toyProtocol.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/RandomDropToyBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/RandomDropToyBox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ToyBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ToyBox.java" afterDir="false" />
+    <list default="true" id="a7ca2e9d-e302-4bf3-90fc-c6e3e0a13360" name="Changes" comment="Добавлен функционал получения игрушек из призовой коробки и протоколирование выдачи игрушек.&#10;Добавлен README&#10;Исправлены названия некоторых методов и переменных">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +63,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677788718760</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Добавлен функционал получения игрушек из призовой коробки и протоколирование выдачи игрушек.&#10;Добавлен README&#10;Исправлены названия некоторых методов и переменных">
+      <created>1677864789660</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677864789660</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -88,6 +87,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Старт работы над проектом.&#10;Реализован функционал создания игрушек трех типов в заданном количестве с присвоением уникальных id сквозной нумерацией" />
     <MESSAGE value="Добавлен функционал розыгрыша игрушек: выбор n лучайных объектов той и вывод их в отдельный список" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавлен функционал розыгрыша игрушек: выбор n лучайных объектов той и вывод их в отдельный список" />
+    <MESSAGE value="Добавлен функционал получения игрушек из призовой коробки и протоколирование выдачи игрушек.&#10;Добавлен README&#10;Исправлены названия некоторых методов и переменных" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлен функционал получения игрушек из призовой коробки и протоколирование выдачи игрушек.&#10;Добавлен README&#10;Исправлены названия некоторых методов и переменных" />
   </component>
 </project>
