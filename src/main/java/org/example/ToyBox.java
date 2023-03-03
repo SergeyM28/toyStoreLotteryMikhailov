@@ -3,21 +3,21 @@ package org.example;
 import java.util.List;
 
 public abstract class ToyBox {
-    protected List<Toy> tb;
+    protected List<Toy> toyList;
 
-    public List<Toy> getTb() {
-        return tb;
+    public List<Toy> getToyList() {
+        return toyList;
     }
 
-    public void setTb(List<Toy> tb) {
-        this.tb = tb;
+    public void setToyList(List<Toy> tb) {
+        this.toyList = tb;
     }
 
     public ToyBox(List<Toy> tb) {
-        this.tb = tb;
+        this.toyList = tb;
     }
     public Toy getById(int id){
-        for (Toy elem : tb){
+        for (Toy elem : toyList){
             if (elem.getId() == id){
                 return elem;
             }

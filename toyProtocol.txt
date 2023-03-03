@@ -1,0 +1,3 @@
+Toy{id=2, name='Toy Train', dropRate=5}2023-03-03T20:30:35.078988400
+Toy{id=4, name='Teddy Bear', dropRate=10}2023-03-03T20:30:35.083046100
+Toy{id=3, name='Teddy Bear', dropRate=10}2023-03-03T20:30:35.084496500

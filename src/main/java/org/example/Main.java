@@ -2,16 +2,23 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
-        ToyFactory tf = new ToyFactory();
-        tf.createToyTrain(3);
-        tf.createTeddyBear(3);
-        tf.createXBox(3);
+        ToyFactory toyFactory = new ToyFactory();
+        toyFactory.createToyTrain(2);
+        toyFactory.createTeddyBear(2);
+        toyFactory.createXBox(2);
 
-        System.out.println(tf.getToysList());
+        RandomDropToyBox randomBox = new RandomDropToyBox(toyFactory.getToysList());
+        System.out.println("В розыгрыше участвуют: ");
+        System.out.println(randomBox.getToyList());
 
-        RandomDropToyBox rdtb = new RandomDropToyBox(tf.getToysList());
-        System.out.println(rdtb.dropRandomToys(3));
-        System.out.println("В коробке остались: ");
-        System.out.println(rdtb.getTb());
+        PrizeToyBox prizeBox = new PrizeToyBox(randomBox.dropRandomToys(3));
+        prizeBox.takeToy();
+        prizeBox.takeToy();
+        prizeBox.takeToy();
+
+        System.out.println("В коробке с игрушками остались: ");
+        System.out.println(randomBox.getToyList());
+        System.out.println("В коробке с призами остались: ");
+        System.out.println(prizeBox.getToyList());
     }
 }

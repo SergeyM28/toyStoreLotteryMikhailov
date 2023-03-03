@@ -6,6 +6,7 @@ import java.util.Random;
 
 public class RandomDropToyBox extends ToyBox implements Randomizer{
 
+
     public RandomDropToyBox(List<Toy> tb) {
         super(tb);
     }
@@ -16,7 +17,7 @@ public class RandomDropToyBox extends ToyBox implements Randomizer{
             int id = pickRandom();
             System.out.printf("Выпадает %s\n", getById(id).getName());
             resultList.add(getById(id));
-            tb.remove(getById(id));
+            toyList.remove(getById(id));
         }
         return resultList;
 
@@ -25,7 +26,7 @@ public class RandomDropToyBox extends ToyBox implements Randomizer{
     @Override
     public int pickRandom() {
         List<Integer>tempList = new ArrayList<>();
-            for (Toy elem : super.tb){
+            for (Toy elem : super.toyList){
                 for (int i = 0; i < elem.getDropRate(); i++){
                 tempList.add(elem.getId());
             }
